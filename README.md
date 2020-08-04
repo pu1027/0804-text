@@ -20,7 +20,7 @@ _You __can__ combine them_
 
 Format: ![Alt Text](url)
 
-http://github.com - automatic!
+http://140.134.27.90/ - teacher
 
 [![bindoor](123/wallpaper.png)](http://github.com)
 
