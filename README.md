@@ -14,10 +14,12 @@ __This will also be bold__
 _You __can__ combine them_
 
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](123/wallpaper.png)
+
+
 
 Format: ![Alt Text](url)
 
 http://github.com - automatic!
 
-[GitHub](http://github.com)
+[![GitHub Logo](123/wallpaper.png)](http://github.com)
