@@ -14,7 +14,7 @@ __This will also be bold__
 _You __can__ combine them_
 
 
-![GitHub Logo](123/wallpaper.png)
+![bindoor](123/wallpaper.png)
 
 
 
@@ -22,6 +22,6 @@ Format: ![Alt Text](url)
 
 http://github.com - automatic!
 
-[![GitHub Logo](123/wallpaper.png)](http://github.com)
+[![bindoor](123/wallpaper.png)](http://github.com)
 
 added develop 
