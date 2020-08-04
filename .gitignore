@@ -1,3 +1,4 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
 
@@ -36,9 +37,9 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-*.png
-
 # Windows shortcuts
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
+
+*.png
