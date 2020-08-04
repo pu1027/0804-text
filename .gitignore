@@ -36,6 +36,8 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+*.png
+
 # Windows shortcuts
 *.lnk
 
