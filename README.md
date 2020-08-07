@@ -22,7 +22,7 @@ Format: ![Alt Text](url)
 
 http://140.134.27.90/ - teacher
 
-[![bindoor](123/wallpaper.png)](http://github.com)
+[![bindoor](image/wallpaper.png)](http://github.com)
 
 added develop 
 
