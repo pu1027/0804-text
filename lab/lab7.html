@@ -4,28 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lab</title>
- 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <style>
         body{
             display: grid;
             grid-template-rows: auto 1fr auto;
+            font-family:DFKai-sb;
     }
-        .list{
-        font-family:DFKai-sb;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        background-color: rgb(185, 196, 245);
        
-    }
   
-    .list1:hover{background-color: lightcoral;}
-    .list2:hover{background-color: rgb(230, 137, 61);}
-    .list3:hover{background-color: rgb(240, 209, 74);}
-    .list4:hover{background-color: rgb(147, 235, 96);}
+    div{font-weight: bold;
+    font-size: 30px;}
         
         table{margin-left:auto; margin-right:auto;
         border-collapse:separate;
@@ -50,22 +40,33 @@
 .afternoon{font-size: 30px;
     text-shadow: 2px 2px 5px;
 }
-.fcu{background-color: rgb(243, 196, 202);
+.{background-color: rgb(243, 196, 202);
 font-size: 30px;
 font-family:DFKai-sb ;
 text-align: center;}
+
+.a{font-size: 50px;}
     </style>
 </head>
 <body>
 
-<div class="list">
-    <div class="list1" >選課系統</div>
-    <div class="list2">學分一覽</div>
-    <div class="list3">已選課表</div>
-    <div class="list4">開課一覽</div>
-</div>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons" >
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked > 開課一覽
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2"> 學分一覽
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3"> 已選課表
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option4"> 選課系統
+          </label>
+      </div>
     <!-- LAB1 -->
-<table>
+ <div class="table-responsive">
+<table class="table">
 
     <tr>
         <td> </td>
@@ -128,14 +129,25 @@ text-align: center;}
         <td>python基礎程式設計</td>
         <td>web基礎程式設計</td>
     </tr>
-    <tr>
+    <tr >
         <td r>16:10</td>
         <td colspan="5"></td>
         
     </tr>
+
+    
 </table>
 
-<footer class="fcu" >FCU</footer>
+</div>
+<div class="alert alert-danger" role="alert" >
+    Feng Chia University
+      </div>
+
+      
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>
